@@ -1,0 +1,12 @@
+PUT /apps/100
+Accept: application/json
+Authorization: Basic a2FtaWw6d3lzb2NraQ==
+Content-Type: application/json
+
+Request body
+{
+	"id" : "100",
+	“name” : “MyApp”,
+	“domain” : “https://my.domain.com”,
+	“permissions” : ["A",“C”]
+}
